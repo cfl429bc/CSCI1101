@@ -1,14 +1,16 @@
 import math
-function = str(input("Enter log, ln, or log2: "))
-value = float(input("Enter a value: "))
-if function == "log":
-    output = math.log10(value)
-    print(f"log({value:.3f}) = {output:.3f}")
-elif function == "ln":
-    output = math.log(value)
-    print(f"ln({value:.3f}) = {output:.3f}")
-elif function == "log2":
-    output = math.log2(value)
-    print(f"log2({value:.3f}) = {output:.3f}")
+import sys
+
+func = str(input("Enter log, ln, or log2: "))
+val = float(input("Enter a value: "))
+if func == "log":
+    out = math.log10(val)
+elif func == "ln":
+    out = math.log(val)
+elif func == "log2":
+    out = math.log2(val)
 else:
     print("That's not a valid operation!")
+    sys.exit()
+
+print(f"{func}({val:.3f}) = {out:.3f}")
