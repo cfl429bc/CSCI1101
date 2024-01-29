@@ -1,0 +1,10 @@
+candidate_a_votes = int(input("Votes for Candidate A: "))
+candidate_b_votes = int(input("Votes for Candidate B: "))
+candidate_c_votes = int(input("Votes for Candidate C: "))
+total_votes = candidate_a_votes + candidate_b_votes + candidate_c_votes
+percent_a_votes = int((candidate_a_votes / total_votes)*100)
+percent_b_votes = int((candidate_b_votes / total_votes)*100)
+percent_c_votes = int((candidate_c_votes / total_votes)*100)
+print(f"Candidate A received {percent_a_votes}% of the votes.")
+print(f"Candidate B received {percent_b_votes}% of the votes.")
+print(f"Candidate C received {percent_c_votes}% of the votes.")
