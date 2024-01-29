@@ -1,6 +1,6 @@
 a = float(input("Side A Length: "))
 b = float(input("Side B Length: "))
-a = float(input("Side C Length: "))
+c = float(input("Side C Length: "))
 
 if a == b == c:
     print("Equalateral Triangle")
