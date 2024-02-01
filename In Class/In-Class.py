@@ -48,12 +48,30 @@
 
 
 
-exam1 = float(input("Score of exam 1: "))
-exam2 = float(input("Score of exam 2: "))
+# exam1 = float(input("Score of exam 1: "))
+# exam2 = float(input("Score of exam 2: "))
 
-if exam1 > 90 and exam2 > 90:
-    print("Way to go!")
-elif exam1 < 70 or exam2 < 70:
-    print("Study more!")
-else:
-    print("Keep it up!")
+# if exam1 > 90 and exam2 > 90:
+#     print("Way to go!")
+# elif exam1 < 70 or exam2 < 70:
+#     print("Study more!")
+# else:
+#     print("Keep it up!")
+
+# num = 2.5
+# if num <= 0:
+#     print("A")
+# elif num >= 1:
+#     print("B")
+# elif num == 3.75:
+#     print("C")
+# else:
+#     print("D")
+
+# x = 4.0
+# if x <= 10:
+#     x = x * 2
+# if x <= 10:
+#     x = x * 2
+
+# print(f"{x}")
