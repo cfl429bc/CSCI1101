@@ -75,3 +75,16 @@
 #     x = x * 2
 
 # print(f"{x}")
+
+
+
+# i = float(input("Start value: "))
+# N = float(input("Value for N: "))
+
+# while not i > N:
+#     print(f"{i}")
+#     i += 1
+
+val = 0
+while val < 1 or val > 100:
+    val = int(input("Enter a value: "))
