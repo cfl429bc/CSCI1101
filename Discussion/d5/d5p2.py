@@ -1,5 +1,6 @@
 # standard dev of random numbs
 import random
+
 count = 15
 vals = []
 while len(vals) < count:

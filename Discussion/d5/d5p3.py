@@ -9,6 +9,7 @@ if count < 1:
 
 lower = float(input("Lower bound? "))
 upper = float(input("Upper bound? "))
+
 if lower > upper:
     print("The lower bound cannot be more than the upper bound")
     sys.exit()

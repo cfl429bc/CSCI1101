@@ -1,5 +1,4 @@
 # atm problem
-
 import sys
 
 balance = 1000
