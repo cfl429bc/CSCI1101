@@ -12,6 +12,7 @@ choices = ["rock", "paper", "scissors"]
 while again == "y":
     user = str(input("What do you pick? "))
     computer = random.choice(choices)
+    
     if user not in choices:
         print("Only rock, paper, and scissors are valid!")
     else:

@@ -13,6 +13,7 @@ neg = 0
 
 while i < len:
     val = float(input())
+    
     if val > 0:
         pos += 1
     elif val == 0:

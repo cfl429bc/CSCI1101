@@ -1,3 +1,4 @@
+# import sys
 import sys
 
 # ask users for how many numbers they want
