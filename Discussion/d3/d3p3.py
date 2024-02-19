@@ -3,6 +3,7 @@ import sys
 
 func = str(input("Enter log, ln, or log2: "))
 val = float(input("Enter a value: "))
+
 if func == "log":
     out = math.log10(val)
 elif func == "ln":

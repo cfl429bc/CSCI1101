@@ -8,3 +8,4 @@ elif a != b and a != c and b != c:
     print("Scalene Triangle")
 else:
     print("Isosolece Triangle")
+    
