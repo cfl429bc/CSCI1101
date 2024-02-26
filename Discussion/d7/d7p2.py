@@ -13,7 +13,7 @@ def factortest(num, n): # outputs the factors, or 0 if not a factor
     if remain == 0:
         return n
     else:
-        return zero
+        return zero # if this is not included it outputs the string "none"
 
 N = posinput("N")
 
