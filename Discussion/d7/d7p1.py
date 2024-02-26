@@ -1,11 +1,13 @@
 import sys
 
-def postest(num):
+def posinput(string):
+    num = int(input(f"Enter a value for {string}: "))
     if num <= 0:
-        print("Value must be positive!")
+        print(f"{string} must be positive!")
         sys.exit()
+    return num
 
-num_1 = float(input("Enter a: "))
-postest(num_1)
-num_2 = float(input("Enter b: "))
-postest(num_2)
+num_1 = posinput("A")
+num_2 = posinput("B")
+
+# did not finish this
