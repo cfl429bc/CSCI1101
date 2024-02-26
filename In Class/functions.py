@@ -27,17 +27,34 @@
 # print(f"factor sum = {test}")
 
 
-C = 299792458  
-def mass_to_energy(mass):
-    energy = mass * (C ** 2)
-    return energy
+# C = 299792458  
+# def mass_to_energy(mass):
+#     energy = mass * (C ** 2)
+#     return energy
 
-def energy_to_mass(energy):
-    mass = energy / (C ** 2)
-    return mass
+# def energy_to_mass(energy):
+#     mass = energy / (C ** 2)
+#     return mass
 
-energy = mass_to_energy(float(input("Mass to convert: ")))
-print(f"Energy = {energy}")
+# energy = mass_to_energy(float(input("Mass to convert: ")))
+# print(f"Energy = {energy}")
 
-mass = energy_to_mass(float(input("Energy to convert: ")))
-print(f"Mass = {mass}")
+# mass = energy_to_mass(float(input("Energy to convert: ")))
+# print(f"Mass = {mass}")
+
+
+
+# def posinput(string):
+#     num = int(input(f"Enter a value for {string}: "))
+#     if num <= 0:
+#         print(f"{string} must be positive!")
+#         sys.exit()
+#     return num
+
+# def factortest(num, n): # outputs the factors, or 0 if not a factor
+#     zero = 0
+#     remain = num % n
+#     if remain == 0:
+#         return n
+#     else:
+#         return zero # if this is not included it outputs the string "none"
