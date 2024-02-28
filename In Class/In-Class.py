@@ -85,6 +85,18 @@
 #     print(f"{i}")
 #     i += 1
 
-val = 0
-while val < 1 or val > 100:
-    val = int(input("Enter a value: "))
+# val = 0
+# while val < 1 or val > 100:
+#     val = int(input("Enter a value: "))
+
+
+costs_list = "$1.50, $42.42, $100.00, $0.99"
+costs = costs_list.split(",")
+print(costs)
+for cost in costs:
+    cost = cost.strip()
+    print(cost, end="")
+    dollars, cents = cost.split(".")
+    dollars = dollars.strip("$")
+    print(f" is {dollars} dollars and {cents} cents.")
+
