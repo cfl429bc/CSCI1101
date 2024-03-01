@@ -90,13 +90,13 @@
 #     val = int(input("Enter a value: "))
 
 
-costs_list = "$1.50, $42.42, $100.00, $0.99"
-costs = costs_list.split(",")
-print(costs)
-for cost in costs:
-    cost = cost.strip()
-    print(cost, end="")
-    dollars, cents = cost.split(".")
-    dollars = dollars.strip("$")
-    print(f" is {dollars} dollars and {cents} cents.")
+# costs_list = "$1.50, $42.42, $100.00, $0.99"
+# costs = costs_list.split(",")
+# print(costs)
+# for cost in costs:
+#     cost = cost.strip()
+#     print(cost, end="")
+#     dollars, cents = cost.split(".")
+#     dollars = dollars.strip("$")
+#     print(f" is {dollars} dollars and {cents} cents.")
 
