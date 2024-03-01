@@ -58,3 +58,16 @@
 #         return n
 #     else:
 #         return zero # if this is not included it outputs the string "none"
+
+def f(a, b):
+    result = ""
+    for c in a:
+        if c.isalpha():
+            result += c
+    for c in b:
+        if not c.isalpha():
+            result += c
+    print(result)
+
+s = "x=42,right?"
+f(s, s)
