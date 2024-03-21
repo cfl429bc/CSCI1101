@@ -22,13 +22,13 @@
 # else:
 #     print("womp womp")
 
-
+# -----------------------------------------------------------------------------------------------
 
 # int(input("integer input: ")) #whole numbers, pos or neg
 # float(input("float input: ")) #number including decimals, pos or neg
 # str(input("string input: ")) #creates a string
 
-
+# -----------------------------------------------------------------------------------------------
 
 # 5**2 #5 raised to the 2 power
 # 5//2 #5 divided by 2 with no remainder (instead of 2.5 will get 2)
@@ -36,7 +36,7 @@
 # "first" + "second" #gives you firstsecond (smushes them together)
 # "first" * 2 #gives you firstfirst (repeats string)
 
-
+# -----------------------------------------------------------------------------------------------
 
 # num1 = float(input("First number: "))
 # num2 = float(input("Second number: "))
@@ -46,7 +46,7 @@
 
 # num = float(input(f"Number: ")
 
-
+# -----------------------------------------------------------------------------------------------
 
 # exam1 = float(input("Score of exam 1: "))
 # exam2 = float(input("Score of exam 2: "))
@@ -76,7 +76,7 @@
 
 # print(f"{x}")
 
-
+# -----------------------------------------------------------------------------------------------
 
 # i = float(input("Start value: "))
 # N = float(input("Value for N: "))
@@ -100,3 +100,19 @@
 #     dollars = dollars.strip("$")
 #     print(f" is {dollars} dollars and {cents} cents.")
 
+# -----------------------------------------------------------------------------------------------
+
+import sys
+
+counts = {}
+print("Enter text, Ctrl-D to stop:")
+for line in sys.stdin:
+    line = line.strip().lower()
+    for char in line:
+        if char in counts:
+            counts[char] += 1
+        else:
+            counts[char] = 1
+
+for char,count in counts.items():
+    print(f"'{char}': {count}")
