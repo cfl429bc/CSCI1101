@@ -1,0 +1,2 @@
+{'Food': 15, 'Water': 10}
+{'Health': 10, 'Stamina': 15}
