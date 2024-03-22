@@ -5,7 +5,7 @@ movies = {
     "ESB": "The Empire Strikes Back",
     "RotJ": "Return of the Jedi"
     }
-filename = "Qzzz_files/movies.txt"
+filename = "Qzzz_files/q4p6movies.txt"
 try:
     with open(filename,"w") as movie_file:
         for init,full in movies.items():
