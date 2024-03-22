@@ -1,5 +1,3 @@
-
-
 colors = {}
 person = input("Enter person's name: ")
 person = person.title()
