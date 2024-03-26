@@ -12,7 +12,10 @@ def analyze_file(file):
     return lines,words,chars
 
 my_list = []
-filename = input("Enter the input file name: ")
+# filename = input("Enter the input file name: ")
+fileinput = input("Enter the input file name: Discussion/d10/")
+filename = "Discussion/d10/" + fileinput
+
 
 try:
     with open(filename) as input_file:
