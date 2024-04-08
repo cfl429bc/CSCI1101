@@ -1,0 +1,6 @@
+42 42.0 forty-two
+words and 1500.17 values
+0
+-15
+0.0
+more words
