@@ -14,8 +14,8 @@ def analyze_file(file):
 my_list = []
 # filename = input("Enter the input file name: ")
 fileinput = input("Enter the input file name: Discussion/d10/")
-filename = "Discussion/d10/" + fileinput
-
+filename = fileinput
+# "Discussion/d10/" + fileinput
 
 try:
     with open(filename) as input_file:
